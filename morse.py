@@ -4,7 +4,6 @@ import csv
 
 def mtos(m):
 	m = m.split(" ")
-	print(m)
 	result = []
 	with open(f"data.csv", "r") as f:
 		mread = csv.reader(f)
