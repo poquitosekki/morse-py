@@ -1,12 +1,12 @@
 import csv
 
-path = "/Users/poquito/Desktop/"
+#path = "/Users/poquito/Desktop/morse-py/"
 
 def mtos(m):
 	m = m.split(" ")
 	print(m)
 	result = []
-	with open(f"{path}data.csv", "r") as f:
+	with open(f"data.csv", "r") as f:
 		mread = csv.reader(f)
 		for char in m:
 			if char == "/":
